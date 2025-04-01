@@ -11,7 +11,6 @@ const About: React.FC = () => {
           <CardContent className="p-6 md:p-8">
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                ¡Hola! Me llamo Franchesca y soy desarrolladora web con una gran pasión por aprender y crecer profesionalmente. 
                 Me encanta enfrentar desafíos y explorar nuevas tecnologías que me permitan encontrar soluciones creativas y 
                 efectivas.
               </p>
