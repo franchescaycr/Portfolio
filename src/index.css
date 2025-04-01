@@ -81,6 +81,6 @@
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: theme('colors.primary') }
+    50% { border-color: theme('colors.primary.DEFAULT') }
   }
 }
