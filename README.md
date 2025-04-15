@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+# Portfolio - Franchesca Carrasco
 
-## Project info
+Este es mi portafolio web hecho con Vite, React, TypeScript, Tailwind CSS y shadcn-ui.
 
-**URL**: https://lovable.dev/projects/0b748cd1-986e-43d1-98d4-527ef5c114e0
+## 🚀 Deploy
 
-## How can I edit this code?
+El sitio está desplegado en GitHub Pages:
 
-There are several ways of editing your application.
+🔗 [https://franchescaycr.github.io/Portfolio/](https://franchescaycr.github.io/Portfolio/)
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/0b748cd1-986e-43d1-98d4-527ef5c114e0) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## 🛠️ Tecnologías usadas
 
 - Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- shadcn/ui
+- React Router DOM
+- TanStack React Query
 
-## How can I deploy this project?
+## 📦 Instalación local
 
-Simply open [Lovable](https://lovable.dev/projects/0b748cd1-986e-43d1-98d4-527ef5c114e0) and click on Share -> Publish.
+```bash
+# 1. Cloná el repositorio
+git clone https://github.com/franchescaycr/Portfolio.git
 
-## Can I connect a custom domain to my Lovable project?
+# 2. Entrá al proyecto
+cd Portfolio
 
-Yes it is!
+# 3. Instalá las dependencias
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# 4. Iniciá el servidor de desarrollo
+npm run dev
+🧾 Scripts disponibles
+npm run dev – Inicia el servidor local en desarrollo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run build – Genera el sitio para producción
+
+npm run preview – Muestra una vista previa del build
+
+npm run deploy – Publica el contenido de dist en GitHub Pages
+
+✍️ Cómo desplegar a GitHub Pages
+bash
+Copiar
+Editar
+npm run build
+npm run deploy
+Asegurate de que en vite.config.ts tengas:
+
+ts
+Copiar
+Editar
+base: "/Portfolio/"
