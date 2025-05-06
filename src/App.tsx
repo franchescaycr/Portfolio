@@ -1,11 +1,13 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { HashRouter, Routes, Route } from "react-router-dom"; // 👈 cambiaste esto
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
+// Eliminar comentarios que ya no son necesarios
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -13,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <HashRouter> {/* 👈 cambiaste esto */}
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
