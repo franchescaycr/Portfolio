@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Home } from "lucide-react";
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +28,8 @@ const Navigation: React.FC = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-xl text-primary font-quicksand font-bold">
-            Franchesca Carrasco
+          <Link to="/" className="text-xl text-primary font-quicksand font-bold flex items-center">
+            <Home size={20} className="mr-2" /> Inicio
           </Link>
           
           {/* Mobile menu button */}
